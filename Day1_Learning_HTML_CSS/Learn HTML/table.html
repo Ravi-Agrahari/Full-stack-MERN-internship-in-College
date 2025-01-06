@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+
+    <style>
+      /* selector  */
+
+      /* 1. Univeral Selector 
+      2. Class Selector 
+      3. Id Selector 
+      4. Tag Selector  */
+
+      h1 {
+        color: rgb(52, 47, 47);
+        text-align: center;
+      }
+
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .heading {
+        background-color: rgb(158, 74, 74);
+      }
+
+      .data {
+        background-color: rgb(114, 213, 114);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is Student table.</h1>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Dept</th>
+        <th>Roll no</th>
+      </tr>
+
+      <tr>
+        <td>Ravi</td>
+        <td>20</td>
+        <td>CSE</td>
+        <td>123</td>
+      </tr>
+      <tr>
+        <td>Saikota</td>
+        <td>21</td>
+        <td>CSE</td>
+        <td>075</td>
+      </tr>
+      <tr>
+        <td>Hukkum</td>
+        <td>20</td>
+        <td>CSE</td>
+        <td>175</td>
+      </tr>
+      <tr>
+        <td>Rikesh</td>
+        <td>23</td>
+        <td>CSE</td>
+        <td>125</td>
+      </tr>
+    </table>
+
+    <h1>Assignment given by Instructor</h1>
+    <table>
+      <tr class="heading">
+        <th>Team</th>
+        <th>City</th>
+        <th>Home ground</th>
+        <th>Debut</th>
+        <th>Owner</th>
+      </tr>
+
+      <tr class="data">
+        <td>CSK</td>
+        <td>chennai</td>
+        <td>chepak</td>
+        <td>2008</td>
+        <td>
+          <ul>
+            <li>N.Srinivasan</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr class="data">
+        <td>DC</td>
+        <td>New Dehli</td>
+        <td>Arun Jaitly stadium</td>
+        <td></td>
+        <td>
+          <ul>
+            <li>Saijan Jindal</li>
+            <li>G.M Rao</li>
+          </ul>
+        </td>
+      </tr>
+      <tr class="data">
+        <td>GT</td>
+        <td>Ahmedabad, Gujarat</td>
+        <td>Narend modi stadium/td></td>
+        <td>2022</td>
+        <td>
+          <ul>
+            <li>Steve koltes</li>
+            <li>juhi chawala</li>
+            <li>jay mehta</li>
+          </ul>
+        </td>
+      </tr>
+      <tr class="data">
+        <td>kkr</td>
+        <td>kolkata</td>
+        <td>eden garden</td>
+        <td>2008</td>
+        <td>
+          <ul>
+            <li>sharukh khan</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

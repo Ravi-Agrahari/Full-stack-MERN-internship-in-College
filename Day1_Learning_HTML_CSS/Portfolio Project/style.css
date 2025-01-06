@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+/* header styling  */
+
+header {
+  background-color: rgb(78, 127, 225);
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  color: rgb(224, 217, 217);
+  margin: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: sandybrown;
+  font-size: 18px;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 5px 25px;
+}
+
+/* // intro and about styling  */
+
+.intro {
+  text-align: center;
+  align-content: center;
+  padding: 40px;
+  color: rgb(68, 31, 31);
+}
+
+.intro h1 {
+  margin-bottom: 5px;
+}
+
+.intro p {
+  margin-bottom: 20px;
+}
+
+.intro img {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.about {
+  text-align: center;
+  align-content: center;
+  padding: 40px;
+  color: rgb(68, 31, 31);
+}
+
+.about p {
+  width: 60%;
+  margin: 5px 20%;
+  color: black;
+}
+
+.technical-skills {
+  text-align: center;
+  margin-bottom: 100px;
+  color: rgb(68, 31, 31);
+}
+
+.technical-skills ul {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.technical-skills ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.technical-skills ul li progress {
+  margin: 0 10px;
+}
+/* footer styling  */
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(78, 127, 225);
+  padding: 10px;
+  font-size: 20px;
+}
