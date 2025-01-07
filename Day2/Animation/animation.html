@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            height: 50px;
+            width: 50px;
+            background-color: blueviolet;
+            /* transition: transform 0.5s; */
+            transition: height 5s, width 5s;
+            transition-delay: 3s;
+
+
+            /* transition: height 3s 4s, width 5s 4s; */
+        }
+
+        .container:hover {
+            /* transform: translate(50px, 100px); */
+            /* transform: rotate(30deg); */
+            /* transform: skew(30deg, 20deg); */
+            /* transform: scale(2, 3); */
+            /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+
+            height: 200px;
+            width: 200px;
+            transition-timing-function: ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+</body>
+
+</html>

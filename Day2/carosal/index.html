@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Video Carousel</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .carousel {
+        width: 100vw;
+        height: auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        background-color: #f3f3f3;
+      }
+
+      .carousel .slide {
+        display: inline-block;
+        width: 96%;
+        padding: 2%;
+      }
+
+      .carousel video {
+        width: 96%;
+        padding: 2%;
+        height: 80vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="slide">
+        <video src="video1.mp4" controls></video>
+      </div>
+      <div class="slide">
+        <video src="video2.mp4" controls></video>
+      </div>
+      <div class="slide">
+        <video src="video3.mp4" controls></video>
+      </div>
+    </div>
+  </body>
+</html>

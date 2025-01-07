@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        /*
+        8 properties of animation 
+
+        Animation name 
+        Animation duration 
+        Animation delay 
+        Animation direction
+        Timing function
+        Animation iteration count
+        Animation play state
+        Animation fill mode
+        */
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Define keyframes for the animation */
+        @keyframes exampleAnimation {
+            0% {
+                transform: scale(1);
+                background-color: blueviolet;
+            }
+
+            30% {
+                transform: scale(2) rotate(180deg);
+                background-color: rgb(80, 255, 83);
+
+            }
+
+            50% {
+                transform: scale(1);
+                background-color: blueviolet;
+            }
+
+            100% {
+                transform: scale(2) rotate(-180deg);
+                background-color: coral;
+            }
+
+        }
+
+        /* Apply the animation to an element */
+        .animated-element {
+            width: 50px;
+            height: 50px;
+            background-color: blueviolet;
+
+            /* Animation properties */
+            animation-name: exampleAnimation;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+            animation-fill-mode: forwards;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animated-element">
+        <h1>Loading</h1>
+    </div>
+</body>
+
+</html>
